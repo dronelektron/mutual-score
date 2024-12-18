@@ -1,5 +1,10 @@
 "Phrases"
 {
+    "Prefix"
+    {
+        "en"    "FFC0CB[Взаимный счёт] "
+    }
+
     "Score"
     {
         "ru"    "Вы: F5DEB3{1}, {2}: F5DEB3{3}"
