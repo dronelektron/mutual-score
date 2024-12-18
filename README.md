@@ -13,4 +13,4 @@ Allows you to track the mutual score
 ### Installation
 
 * Download latest [release](https://github.com/dronelektron/mutual-score/releases)
-* Extract `plugins` folder to `addons/sourcemod` folder of your server
+* Extract `plugins` and `translations` folders to `addons/sourcemod` folder of your server

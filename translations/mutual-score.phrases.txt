@@ -1,0 +1,13 @@
+"Phrases"
+{
+    "Prefix"
+    {
+        "en"    "FFC0CB[Mutual score] "
+    }
+
+    "Score"
+    {
+        "#format"   "{1:d},{2:N},{3:d}"
+        "en"    "You: F5DEB3{1}, {2}: F5DEB3{3}"
+    }
+}
