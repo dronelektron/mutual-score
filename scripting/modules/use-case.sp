@@ -8,6 +8,11 @@ void UseCase_PlayerDeath(int victim, int attacker) {
     int victimScore = Client_GetScore(attacker, victim);
     int attackerScore = Client_GetScore(victim, attacker);
 
-    Message_ShowScore(victim, attacker, victimScore, attackerScore);
-    Message_ShowScore(attacker, victim, attackerScore, victimScore);
+    if (Cookie_IsShowScore(victim)) {
+        Message_ShowScore(victim, attacker, victimScore, attackerScore);
+    }
+
+    if (Cookie_IsShowScore(attacker)) {
+        Message_ShowScore(attacker, victim, attackerScore, victimScore);
+    }
 }
